@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  margin: 100px auto;
+  width: 45%;
+  border: 1px solid;
+}
+.main header {
+  padding: 10px 6px;
+  background-color: rgb(248, 246, 246);
+}
+.main header h2 {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+.first {
+  padding: 10px 12px;
+  width: 100%;
+}
+.process {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+}
+.entrance {
+  width: 100%;
+}
+.entrance > form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+input[type="text"] {
+  padding: 5px;
+  width: 100%;
+}
+input[type="submit"] {
+  background-color: rgb(38, 146, 241);
+  border: 1px solid rgb(68, 162, 250);
+  color: white;
+  padding: 0px 10px;
+  font-size: 11px;
+}
+.todo {
+  width: 100%;
+  padding: 15px 10px;
+  background-color: rgb(235, 234, 234);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  border: 1px solid rgb(235, 234, 234);
+}
+.todo1 {
+  width: 100%;
+  padding: 15px 10px;
+  background-color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  border: 1px solid rgb(235, 234, 234);
+}
+.todo i {
+  font-size: 20px;
+  justify-self: flex-end;
+  position: absolute;
+}
+.edit {
+  left: calc(100% - 55px);
+  cursor: pointer;
+}
+.delete {
+  left: calc(100% - 25px);
+  cursor: pointer;
+}
+.todo1 i {
+  font-size: 20px;
+  justify-self: flex-end;
+  position: absolute;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
